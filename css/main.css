@@ -1,0 +1,26 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.gallery {
+  overflow: hidden;
+}
+.item {
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  text-align: center;
+  line-height: 200px;
+  font-size: 3em;
+  float: left;
+}
+.item:nth-child(1) { background-color: #e28280; }
+.item:nth-child(2) { background-color: #e2a980; }
+.item:nth-child(3) { background-color: #e2d280; }
+.item:nth-child(4) { background-color: #aee280; }
+.item:nth-child(5) { background-color: #80e28f; }
+.item:nth-child(6) { background-color: #80e2ca; }
+.item:nth-child(7) { background-color: #80bbe2; }
+.item:nth-child(8) { background-color: #808fe2; }
+.item:nth-child(9) { background-color: #b180e2; }
+.item:nth-child(10) { background-color: #e280cc; }
